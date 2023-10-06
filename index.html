@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="./assets/style.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Quake Brains</title>
+  </head>
+  <body style="font-family:Arial, Helvetica, sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: rgb(185, 185, 185);"><b>Quake Brains</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(185, 185, 185);">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">         
+            <a class="nav-link active" href="index.html" aria-current="page" style="color: rgb(185, 185, 185);">Home</a>
+            <a class="nav-link"  href="faq.html" style="color: rgb(185, 185, 185);">FAQ</a>
+            <a class="nav-link" href="about.html" style="color: rgb(185, 185, 185);">About</a>
+            <a class="nav-link" href="donate.html" style="color: rgb(185, 185, 185);">Donate</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+        <div class="row pt-5">
+          <div class="col-md-12">
+            <h1>Latest Earthquakes</h1>
+          </div>
+        </div>
+        <hr>
+        <div class="row" id="data-list">
+        </div>
+        <div class="col-md-12" id="button">
+          <button id="loadMore">Load more</button>
+        </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous">
+    </script>
+    <script src="./assets/getQuakes.js" ></script>
+  </body>
+</html>

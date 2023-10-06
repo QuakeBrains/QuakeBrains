@@ -1,0 +1,55 @@
+.magnitude { 
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(23, 23, 23);
+}
+
+.erq-location {
+    font-weight: bold;
+    columns:  rgb(23, 23, 23);
+}
+
+.map-link {
+    font-size: 2rem;
+    color: #a80000;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.nav-link .active {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar .col-3 > a {
+    text-decoration: none;
+    color: rgb(185, 185, 185) !important;
+}
+
+#button{
+    cursor: pointer;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#loadMore{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.5rem;
+    border-color: rgb(148, 148, 148);
+    box-shadow: 2px 2px 4px #000000;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+@media screen and (max-width: 600px) {
+     #donate{
+      max-width: 80%;
+    }
+    .accordion{
+        width: 100%;
+    }
+  }
